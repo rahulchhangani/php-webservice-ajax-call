@@ -10,9 +10,7 @@
     success: function (data) {
         $.each(data, function(index, element) {
           alert(element.id+","+element.maxmarks+","+element.obtmarks);
-          /*here element.id gives you student id who attended
-           quiz, element.maxmarks gives you maximum marks
-           and element.obtmarks gives you student's obtained marks
+          /*use element array as required
            */
         });
     }
